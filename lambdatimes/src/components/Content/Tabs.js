@@ -10,7 +10,8 @@ const Tabs = props => {
             props.tabs.map((tab) => {
               return <Tab 
                 tab={tab}
-                changedSelected={props.changeSelected}/>
+                changedSelected={props.changeSelected}
+                nameSelected={props.nameSelected}/>
             })
             }
       </div>
