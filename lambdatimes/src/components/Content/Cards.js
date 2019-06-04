@@ -9,11 +9,7 @@ const Cards = props => {
           
           props.cards.map((card) => {
             return <div>
-                <h3>{card.headline}</h3>
-                  <p>{card.tab}</p>
-                  <img src={card.img}/>
-                  <p>{card.author}</p>
-
+                <Card card={card}/>
               </div>
           })
           
