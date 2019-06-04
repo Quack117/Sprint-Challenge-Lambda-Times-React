@@ -8,12 +8,14 @@ const Tab = props => {
 
      let selectedTab = props.nameSelected
 
-     if (tabCheck === selectedTab) {
-       let tabClass = 'tab active-tab'
+     let tabClass = tabClass 
+     
+if (tabCheck === selectedTab) {
+       tabClass = 'tab active-tab'
      }
      
      else {
-       let tabClass = 'tab'
+       tabClass = 'tab'
      }
       
 
